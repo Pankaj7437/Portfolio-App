@@ -16,7 +16,7 @@ function Intro() {
                     <br />
                     <span className='typewriter-text'>
                         <Typewriter
-                            words={['Web Developer', 'React Developer', 'Frontend Enthusiast']}
+                            words={['Web Developer', 'React Developer', 'Frontend Enthusiast', 'Linux System Administrator', 'Devops Engineer', 'AWS cloud engineer']}
                             loop={true}
                             cursor
                             cursorStyle='_'
