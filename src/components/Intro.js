@@ -1,6 +1,5 @@
 import React from 'react'
 import './Intro.css'
-import {Link} from 'react-scroll'
 import btnImg from '../assets/hireme.png' 
 import reactLogo from '../assets/react.svg'
 import { Typewriter } from 'react-simple-typewriter'
@@ -16,7 +15,7 @@ function Intro() {
                     <br />
                     <span className='typewriter-text'>
                         <Typewriter
-                            words={['Web Developer', 'React Developer', 'Frontend Enthusiast']}
+                            words={['Web Developer', 'React Developer', 'Frontend Enthusiast', 'Linux System Administrator', 'Devops Engineer', 'AWS cloud engineer']}
                             loop={true}
                             cursor
                             cursorStyle='_'
