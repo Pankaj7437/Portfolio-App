@@ -1,6 +1,5 @@
 import React from 'react'
 import './Intro.css'
-import {Link} from 'react-scroll'
 import btnImg from '../assets/hireme.png' 
 import reactLogo from '../assets/react.svg'
 import { Typewriter } from 'react-simple-typewriter'
