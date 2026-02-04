@@ -1,8 +1,8 @@
 import React from 'react'
 import './Intro.css'
-import {Link} from 'react-scroll'
 import btnImg from '../assets/hireme.png' 
-import reactLogo from '../assets/react.svg'
+// import reactLogo from '../assets/react.svg'
+import img from '../assets/image_my-removebg-preview (1).png'
 import { Typewriter } from 'react-simple-typewriter'
 
 function Intro() {
@@ -16,7 +16,7 @@ function Intro() {
                     <br />
                     <span className='typewriter-text'>
                         <Typewriter
-                            words={['Web Developer', 'React Developer', 'Frontend Enthusiast']}
+                            words={['Web Developer', 'React Developer', 'Frontend Enthusiast', 'Linux System Administrator', 'AWS Cloud Engineer', 'Devops Engineer' ]}
                             loop={true}
                             cursor
                             cursorStyle='_'
@@ -41,7 +41,7 @@ function Intro() {
                 {/* </Link> */}
             </div>
 
-            <img src={reactLogo} className='logo2' alt='React img' />
+            <img src={img} className='logo2' alt='React img' />
         </section>
       
     </>

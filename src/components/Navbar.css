@@ -2,8 +2,8 @@
     background-color: #161b22;
     color: #e6edf3;
     height: 5rem;
-    width: 100vw;
-    max-width: 75rem;
+    width:auto;
+    max-width: 100rem;
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
@@ -79,13 +79,13 @@
 .navMenu{
     position:absolute;
     top: 4rem;
-    right: 4rem;
+    /* right: 4rem; */
     z-index: 2;
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
     height: fit-content;
-    min-width: 15rem;
+    min-width: 20rem;
     background: rgb(20, 20, 20);
     border-radius: 1rem;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
