@@ -2,8 +2,9 @@ import React from 'react'
 import './Project.css'
 import project from '../assets/project.jpg'
 import Portfolio from '../assets/Screenshot 2026-02-03 193042.png'
-import Clone from '../assets/clone.png'
 import Anniversary from '../assets/anniversary.png'
+import LoadBalancer from '../assets/loadbalancer.png'
+import Intellmeet from '../assets/Intellmeet.png'
 
 function Project() {
   return (
@@ -23,12 +24,21 @@ function Project() {
             </div>    
             <div className='project-item' data-aos="zoom-in-up">
                 <div className='item-details'>
-                    <p className='P1'>Amazon Clone</p>
-                    <p className='P2'>TechStack:- HTML and CSS</p>
-                    <a href='https://github.com/Pankaj7437/Amazon-clone'>Github Link</a>
+                    <p className='P1'>AWS load balancer ,auto scaling group</p>
+                    <p className='P2'>TechStack:- AWS ALB , AWS ASG, AWS EC2</p>
+                    <a href='https://github.com/Pankaj7437/aws-alb-asg-apache-project'>Github Link</a>
                 </div>
 
-                <img src={Clone} alt='Project' className='projectImg'/>
+                <img src={LoadBalancer} alt='Project' className='projectImg'/>
+            </div>
+            <div className='project-item' data-aos="zoom-in-up">
+                <div className='item-details'>
+                    <p className='P1'>Intellmeet- AI Powered Video Conferencing website</p>
+                    <p className='P2'>TechStack:- MERN, typescript, socket.io, webRTC </p>
+                    <a href='https://github.com/Pankaj7437/intellmeet'>Github Link</a>
+                </div>
+
+                <img src={Intellmeet} alt='Project' className='projectImg'/>
             </div>
             <div className='project-item' data-aos="zoom-in-up">
                 <div className='item-details'>
